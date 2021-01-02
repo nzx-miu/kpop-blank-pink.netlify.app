@@ -5,4 +5,8 @@ command = "hugo"
 [context.production.environment]
 HUGO_VERSION = "0.73.0"
 HUGO_ENV = "production"
+<<<<<<< HEAD
 HUGO_ENABLEGITINFO = "true"
+=======
+HUGO_ENABLEGITINFO = "true"
+>>>>>>> file update 1
