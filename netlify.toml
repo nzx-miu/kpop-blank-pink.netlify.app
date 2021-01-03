@@ -1,6 +1,7 @@
 [build]
 publish = "public"
 command = "hugo"
+edge_handlers = "src/my-edge-handlers"
 
 [context.production.environment]
 HUGO_VERSION = "0.73.0"
