@@ -1,7 +1,7 @@
 {{ define "main" }}{{ .Content }}
 <article class="card-post">
     <div class="container">
-        <div class="mb-4 text-center"><h3>{{ .Title | singularize }} Recipes </h3></div>
+        <div class="mb-4 text-center"><h3>{{ .Title | singularize }} Picture </h3></div>
         <div class="row">
             {{ range (.Paginate (where site.RegularPages "Section" "in" (lower .Title)) 9).Pages }}         
                 <div class="col-md-4 mb-4 d-flex">

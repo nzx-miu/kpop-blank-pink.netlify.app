@@ -1,4 +1,4 @@
-baseURL = "https://derecipe-cuisine.netlify.app"
+baseURL = "https://kpop-twice.netlify.app"
 languageCode = "en-us"
 title = "New X Theme"
 theme = "x"
@@ -12,9 +12,9 @@ sectionPagesMenu = "main"
   post = ":slug"
 
 [params]
-  description = "The place for over 10,000 popular recipes for your complete cooking guide"
-  topdescription = "The place for over 10,000 popular recipes for your complete cooking guide"
-  toptitle = "Best Recipes"
+  description = "The place for over 10,000 popular Picture for your complete Pictures guide"
+  topdescription = "The place for over 10,000 popular Picture for your complete Pictures guide"
+  toptitle = "Best Picture"
   contentBackgroundColor = "#fff"
   contentLinkColor = "#007bff"
   contentLinkHoverColor = "#0056b3"
@@ -33,7 +33,7 @@ sectionPagesMenu = "main"
   navbarLinkHoverColor = "rgba(255, 255, 255, 1)"
   showPostSummary = false
   wrapperMaxWidth = ""
-  mainSections = ["bread","chicken","mix","soup"]
+  mainSections = ["kpop","twice",]
   [params.social.share]
     facebook = true
     linkedin = true
