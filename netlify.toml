@@ -2,16 +2,16 @@
 publish = "public"
 command = "hugo"
 
-[[plugins]]
-package = "netlify-plugin-rss"
-  [plugins.inputs]
+#[[plugins]]
+#package = "netlify-plugin-rss"
+  #[plugins.inputs]
   # required configs, customize as needed
-  dirToScan = "/posts" # a subfolder to scan. "/" to scan all
-  authorName = "swyx"
-  site_url = "https://swyx.io"
-  title = "swyx RSS Feed"
-  rssDescription = "swyx.io RSS Feed"
-  categories = ['Technology', 'JAMstack', 'Web Development']
+  #dirToScan = "/posts" # a subfolder to scan. "/" to #scan all
+  #authorName = "swyx"
+  #site_url = "https://swyx.io"
+  #title = "swyx RSS Feed"
+  #rssDescription = "swyx.io RSS Feed"
+  #categories = ['Technology', 'JAMstack', 'Web #Development']
  
   # # optional configs, defaults shown
   # rssFaviconUrl = "https://swyx.io/favicon.png"
@@ -26,12 +26,12 @@ package = "netlify-plugin-rss"
   # # cheerio selectors for extractMetadataFromFile
   # # defaults shown
   # contentSelector = "main"
-  # publishDateSelector = # if not specified, we use the date of file creation
-  # descriptionSelector = "meta[name=description]" # probably no need to change
+  # publishDateSelector = # if not specified, we use #the date of file creation
+  # descriptionSelector = "meta[name=description]" # #probably no need to change
   # titleSelector = "title" # probably no need to change
  
   # # developer configs
-  # debugMode = false # (for development) turn true for extra diagnostic logging
+  # debugMode = false # (for development) turn true for #extra diagnostic logging
 
 [context.production.environment]
 HUGO_VERSION = "0.101.0"
